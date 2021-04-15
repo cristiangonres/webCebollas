@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(255, 255, 255);    
+    overflow-x: hidden;
+}
+.flex-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    color:rgb(141, 182, 129);
+    font-family: sans-serif;
+}
+
+.flex-item {
+    flex-grow: 1;
+    margin:20px;
+    max-width: 300px;
+    border: 2px solid rgb(128, 128, 77);
+    padding: 0 20px;
+}
+
+.flex-item:hover{
+    border-color:rgb(235, 14, 14);
+    box-shadow: 0px 0px 30px #eb617f;
+}
+
+.flex-item:focus{
+    border-color:darkseagreen;
+    box-shadow: 0px 0px 30px #234267;
+}
+
+.cebolla-img {
+    width: 200px;
+}
+
+h2,h3 {
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+h3{
+    color:rgb(122, 153, 153);
+}
+
+p b { 
+    color:darkgray
+}
+
+form {
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+}
+
+input[type="submit"] {
+    background:#eb617f;
+    color:aliceblue;
+    border: 2px #6deb61;
+    padding: 16px 26px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+input[type="submit"]:hover {
+    background:#f13e65;
+    color:aliceblue;
+    border: 1px solid #0226f3;
+    padding: 18px 28px;
+    font-size: 20px;
+    letter-spacing: 3px;
+
+}
